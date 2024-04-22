@@ -146,10 +146,13 @@
     <ClCompile Include="Framework\Tiles.cpp" />
     <ClCompile Include="Framework\Vector.cpp" />
     <ClCompile Include="Framework\World.cpp" />
+    <ClCompile Include="Hippo.cpp" />
     <ClCompile Include="Level.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Mario.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="TileEditor.cpp" />
+    <ClCompile Include="Zombie.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Framework\Animation.h" />
@@ -167,9 +170,12 @@
     <ClInclude Include="Framework\UI.h" />
     <ClInclude Include="Framework\Vector.h" />
     <ClInclude Include="Framework\World.h" />
+    <ClInclude Include="Hippo.h" />
     <ClInclude Include="Level.h" />
+    <ClInclude Include="Mario.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="TileEditor.h" />
+    <ClInclude Include="Zombie.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Framework\DO_NOT_EDIT.txt" />
