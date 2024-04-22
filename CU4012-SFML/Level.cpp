@@ -12,12 +12,12 @@ Level::Level(sf::RenderWindow* hwnd, Input* in, GameState* gs,sf::View* v, World
 	/*zomb.setInput(input);
 	zomb.setAudio(audioManager);*/
 
-	hippo.setInput(input);
-	hippo.setAudio(audioManager);
+	player.setInput(input);
+	player.setAudio(audioManager);
 
 
 	//world-> AddGameObject(zomb);
-	world-> AddGameObject(hippo);
+	world-> AddGameObject(player);
 
 	audioManager->addMusic("sfx/Cantina.ogg", "bgm");
 	audioManager->addSound("sfx/smb_jump-super.wav", "jump"); 
@@ -52,7 +52,7 @@ void Level::handleInput(float dt)
 
 	}
 	//zomb.handleInput(dt);
-	hippo.handleInput(dt);
+	player.handleInput(dt);
 }
 
 // Update game objects
@@ -76,7 +76,7 @@ void Level::render()
 	beginDraw();
 	tileManager->render(false);
 	//window->draw(zomb);
-	window->draw(hippo); 
+	window->draw(player); 
 	endDraw();
 }
 

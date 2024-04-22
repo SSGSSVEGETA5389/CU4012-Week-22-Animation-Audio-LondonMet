@@ -26,6 +26,6 @@ private:
 	// Default variables for level class.
 
 	Zombie zomb; 
-	Mario player; 
-	Hippo hippo; 
+	// Mario player; 
+	Hippo player; 
 };
